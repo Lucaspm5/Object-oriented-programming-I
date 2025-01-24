@@ -32,7 +32,11 @@ class Graph:
         self._parent.pop(idx)
         self._visited.pop(idx)
 
-        for i in range(idx, len(self._nameIndex)):
+        for i in range(len(self._nameIndex)):
+            for neighbor in self._neighbors[i]:
+                if neighbor.vertex > idx:
+                    neighbor.vertex -= 1
+
             self._nameIndex[self._indexName[i]] = i
     
     def add_edge(self, name_u, name_v, weight_uv):
