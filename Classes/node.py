@@ -8,7 +8,11 @@ class Node:
     @property
     def vertex(self): 
         return self._vertex
-
+    
+    @vertex.setter
+    def vertex(self, value):
+        self._vertex = value
+    
     def __lt__(self, other):
         return self.distance < other.distance
     def __repr__(self):
