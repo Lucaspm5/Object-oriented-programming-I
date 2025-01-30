@@ -1,7 +1,7 @@
 # Sistema de Rotas e Entregas
 
 ### Descrição
-Este projeto é um sistema de gerenciamento de rotas e entregas desenvolvido como parte do curso de Programação Orientada a Objetos I. O sistema permite a criação, edição e monitoramento de rotas de entrega, além de fornecer funcionalidades para gerenciar pedidos.
+Este projeto é um sistema de gerenciamento de rotas e entregas. O sistema permite a criação, edição e monitoramento de rotas de entrega, além de fornecer funcionalidades para gerenciar pedidos.
 
 <p align="center">
   <img src="https://img.shields.io/badge/Média%20Final-10.0-brightgreen" alt="Média Final">
